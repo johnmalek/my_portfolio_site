@@ -1,266 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Malek Portfolio">
-    <meta name="author" content="Devcrud">
-    <title>John Malek</title>
-    <link rel="icon" type="imgs/image/x-icon" href="imgs/favicon.ico">
-    <!-- font icons -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="John Malek is a software engineer and data analyst building useful digital products.">
+    <title>John Malek — Software Engineer & Data Analyst</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="assets/css/malek.css">
+    <link rel="stylesheet" href="assets/css/malek.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Malek</a>         
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-                <!-- <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li> -->
+<body id="home">
+    <nav class="custom-navbar" aria-label="Primary navigation">
+        <div class="container nav-inner">
+            <a class="logo" href="#home" aria-label="John Malek home">JM<span>.</span></a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+            <ul class="nav" id="site-nav">
+                <li><a class="link" href="#about">About</a></li>
+                <li><a class="link" href="#services">Expertise</a></li>
+                <li><a class="link" href="#portfolio">Work</a></li>
+                <li><a class="link nav-cta" href="#contact">Let's talk <span>↗</span></a></li>
             </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-                </div>
-            </a>
-        </div>          
-    </nav><!-- End of Page Navbar -->
-
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am John Malek</span>
-            </h1>
-            <p class="header-subtitle">Software Engineer | Data Analyst</p>            
-
-            <!-- <button class="btn btn-primary">Visit My Works</button> -->
-        </div>              
-    </header><!-- end of page header -->
-
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/IMG_9000.JPG" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
-                    <p>
-                        
-                        I am a passionate and driven IT professional with a strong focus on developing
-                        applications that meet and exceed user expectations. With a keen interest in backend
-                        systems, databases and data analytics, I thrive in collaborative environments where I
-                        can both contribute and learn from others. <br>
-                        I am eager to leverage my technical skills, innovative mindset and dedication to
-                        contribute meaningfully to society, drive innovation and deliver impactful software
-                        solutions.
-                    </p>
-                    <form action="assets/JOHN MALEK GARANG - CV.pdf" target="_blank" method="get">
-                        <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
-                    </form>
-                </div>              
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Skills</h6>
-            <!--Skills row 1-->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/web-development.png" alt="Programming" class="icon">
-                            <h6 class="title">Programming</h6>
-                            <p class="subtitle">I create applications that align with user needs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/web-link.png" alt="Web Development" class="icon">
-                            <h6 class="title">Web Development</h6>
-                            <p class="subtitle">Use of JavaScript and other libraries to create responsive websites that appeal to your clients.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/database-management.png" alt="Programming" class="icon">
-                            <h6 class="title">Database Management</h6>
-                            <p class="subtitle">I can work with SQL, PostGreSQL and MongoDB and managing access to data.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/data-analysis.png" alt="Programming" class="icon">
-                            <h6 class="title">Data Analysis</h6>
-                            <p class="subtitle">I use Pandas, numpy and other libraries to prepare data for cleaning, presentation and analysis.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of Skills row 1-->
-            <br>
-            <!--Skills Row 2 -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/agile.png" alt="Agile" class="icon">
-                            <h6 class="title">Agile Development</h6>
-                            <p class="subtitle">Iterative development with focus on feedback and continuous improvement to ensure all the project requirements are met.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/version-control.png" alt="GIt" class="icon">
-                            <h6 class="title">Version Control</h6>
-                            <p class="subtitle">Proficeint in Git for Code Versioning and Collaboration.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of Skills row 2-->
         </div>
-    </section><!-- end of service section -->
-
-    <!-- portfolio section -->
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Projects</h6>
-            <!--Projects row 1-->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://movie-manager.onrender.com/" target="_blank" class="portfolio-card">
-                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Movie Manager</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://malek-blog.onrender.com/" target="_blank"  class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">My Blog Site</p>
-                            </span>                         
-                        </span>                         
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/johnmalek/ImmunTrack" target="_blank"  class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Immunization Tracking System</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-            </div><!-- end of Projects row 1-->
-            <br>
-            <!-- Projects row 2-->
-             <div class="row">
-                <div class="col-md-4">
-                    <a href="https://github.com/johnmalek/thrivematch_app" target="_blank"  class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">ThriveMatch Backend</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-             </div> <!-- end of Projects row 2-->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
-
-    <!-- contact section -->
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form method="post" action="https://formspree.io/f/mleknkgr" class="contact-form col-md-10 col-lg-8 m-auto">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" name="name" required>                 
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" name="email" requried>                 
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
-                    </div>
-                </div>  
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">       
-            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; John Malek</p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="https://github.com/johnmalek" target="_blank"  class="link"><i class="ti-github"></i></a>
-                <a href="https://twitter.com/MalekJohn1" target="_blank"  class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="https://www.linkedin.com/in/john-malek-garang-8b666b217/" target="_blank"  class="link"><i class="ti-linkedin"></i></a>
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
-	
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Malek js -->
+    </nav>
+    <main>
+        <header class="hero" id="hero"><div class="hero-grid container"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Available for new opportunities</p><h1>Building useful<br><em>things</em> for the web.</h1><p class="hero-lede">I'm John Malek — a software engineer and data analyst who turns complex problems into clear, dependable digital products.</p><div class="hero-actions"><a class="button button-primary" href="#portfolio">Explore my work <span>↗</span></a><a class="text-link" href="assets/JOHN MALEK GARANG - CV.pdf" target="_blank">Download CV <span>↓</span></a></div><div class="hero-meta"><span>Based in East Africa</span><span class="meta-line"></span><span>Working globally</span></div></div><div class="hero-visual"><div class="visual-frame"><img src="assets/imgs/IMG_9000.JPG" alt="John Malek smiling outdoors"></div><div class="visual-note"><span>01</span><span>Engineer<br>&amp; analyst</span></div><div class="visual-ring"></div></div></div><div class="scroll-cue"><span>Scroll to explore</span><i>↓</i></div></header>
+        <section class="section intro-section" id="about"><div class="container split-section"><div class="section-label"><span>01</span><span>About me</span></div><div class="intro-content"><p class="section-kicker">A thoughtful approach to technology</p><h2>I care about the space between a good idea and a great experience.</h2><div class="intro-columns"><p>My work sits at the intersection of product thinking, backend systems and data. I enjoy taking an ambiguous challenge, finding the signal, and shaping it into something people can actually use.</p><p>I'm at my best in curious, collaborative teams where craft matters and every iteration moves the work forward.</p></div><div class="stats"><div><strong>4+</strong><span>Years learning<br>and building</span></div><div><strong>05</strong><span>Selected projects<br>in the wild</span></div><div><strong>∞</strong><span>Curiosity<br>for what's next</span></div></div></div></div></section>
+        <section class="section expertise-section" id="services"><div class="container"><div class="section-heading"><div class="section-label"><span>02</span><span>What I do</span></div><h2>From first sketch<br>to <em>shipping.</em></h2></div><div class="expertise-grid"><article class="expertise-card"><span class="card-number">01</span><div class="card-icon">⌘</div><h3>Software engineering</h3><p>Reliable applications with thoughtful architecture, clean code and a strong focus on the people using them.</p><div class="tag-list"><span>Python</span><span>JavaScript</span><span>APIs</span></div></article><article class="expertise-card accent-card"><span class="card-number">02</span><div class="card-icon">◒</div><h3>Data &amp; analytics</h3><p>Turning messy datasets into clear insights, useful visualizations and decisions teams can act on.</p><div class="tag-list"><span>SQL</span><span>Pandas</span><span>Dashboards</span></div></article><article class="expertise-card"><span class="card-number">03</span><div class="card-icon">✦</div><h3>Product thinking</h3><p>Connecting user needs, business goals and technical possibilities to build things that matter.</p><div class="tag-list"><span>Research</span><span>Agile</span><span>Iteration</span></div></article></div></div></section>
+        <section class="section work-section" id="portfolio"><div class="container"><div class="section-heading work-heading"><div><div class="section-label"><span>03</span><span>Selected work</span></div><h2>A few things<br>I've <em>made.</em></h2></div><p>Real projects, practical problems, and a lot of learning along the way.</p></div><div class="projects-grid"><a href="https://movie-manager.onrender.com/" target="_blank" class="project-card project-large"><div class="project-image"><img src="assets/imgs/folio-1.jpg" alt="Movie Manager project preview"><span class="project-arrow">↗</span></div><div class="project-info"><div><h3>Movie Manager</h3><p>A simple, useful home for your watchlist.</p></div><span class="project-type">Web app · 01</span></div></a><a href="https://malek-blog.onrender.com/" target="_blank" class="project-card"><div class="project-image"><img src="assets/imgs/folio-2.jpg" alt="Blog site project preview"><span class="project-arrow">↗</span></div><div class="project-info"><div><h3>My Blog Site</h3><p>A space for ideas and stories.</p></div><span class="project-type">Web · 02</span></div></a><a href="https://github.com/johnmalek/ImmunTrack" target="_blank" class="project-card"><div class="project-image"><img src="assets/imgs/folio-3.jpg" alt="ImmunTrack project preview"><span class="project-arrow">↗</span></div><div class="project-info"><div><h3>ImmunTrack</h3><p>Making immunization data easier to track.</p></div><span class="project-type">System · 03</span></div></a><a href="https://github.com/johnmalek/thrivematch_app" target="_blank" class="project-card"><div class="project-image"><img src="assets/imgs/folio-3.jpg" alt="ThriveMatch project preview"><span class="project-arrow">↗</span></div><div class="project-info"><div><h3>ThriveMatch</h3><p>Backend foundations for better matching.</p></div><span class="project-type">Backend · 04</span></div></a></div></div></section>
+        <section class="contact-section" id="contact"><div class="container contact-inner"><div class="section-label"><span>04</span><span>Start a conversation</span></div><div><h2>Have a good problem<br>to solve? <em>Let's talk.</em></h2><p>Whether you have a project in mind or just want to say hello, my inbox is open.</p><a class="email-link" href="mailto:johnmalekgarang@gmail.com">johnmalekgarang@gmail.com <span>↗</span></a></div></div></section>
+    </main>
+    <footer class="footer"><div class="container footer-inner"><p>© <script>document.write(new Date().getFullYear())</script> John Malek</p><div class="social-links"><a href="https://github.com/johnmalek" target="_blank" aria-label="GitHub"><i class="ti-github"></i></a><a href="https://twitter.com/MalekJohn1" target="_blank" aria-label="Twitter"><i class="ti-twitter-alt"></i></a><a href="https://www.linkedin.com/in/john-malek-garang-8b666b217/" target="_blank" aria-label="LinkedIn"><i class="ti-linkedin"></i></a></div><p class="footer-note">Designed &amp; built with intention.</p></div></footer>
     <script src="assets/js/malek.js"></script>
-
 </body>
 </html>
